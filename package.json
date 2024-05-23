@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "this is namaste react by Sachin Arora",
   "scripts": {
+    "start": "parcel index.html",
+    "Pbuild": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,14 +18,19 @@
   "author": "Sachin Arora",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
     "parcel": "^2.12.0",
-    "process": "^0.11.10"
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "browsersList" : [
+  "browsersList": [
     "last 2 versions"
   ]
 }
